@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="img">
+                <img src="./img/note.png" alt="notebook">
+            </div>
+            <h1>Shopping List</h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" name="enterItem" id="enterItem" placeholder="Enter Item">
+                <button id="addItem"><i class="fa-solid fa-plus"></i> Add Item </button>
+                <input type="text" name="filterItems" id="filterItems" placeholder="Filter Items">
+
+                <ul id="list">
+                    <li class="listItem">List One
+                        <i class="fa-solid fa-x"></i>
+                    </li>
+                    <li class="listItem">List Two
+                        <i class="fa-solid fa-x"></i>
+                    </li>
+                    <li class="listItem">List Three
+                        <i class="fa-solid fa-x"></i>
+                    </li>
+                    <li class="listItem">List Four
+                        <i class="fa-solid fa-x"></i>
+                    </li>
+                </ul>
+
+                <button id="clearAll">Clear All</button>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

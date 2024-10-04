@@ -1,0 +1,3 @@
+font Awesome
+
+- Delete buttons
